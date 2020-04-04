@@ -2,7 +2,7 @@
 # bin/release <build-dir>
 
 #echo "make start" && exit 0
-echo "--- {default_process_types:\nweb: 'make start'}"
+echo "--- {default_process_types:\n web: 'make start'}"
 
 #echo -e "---\ndefault_process_types:\n  web: '>&2 echo Error: no start command specified during staging or launch && exit 1'"
 #echo -e "---\ndefault_process_types:\n  web: 'make start >&2 && exit 1'"
