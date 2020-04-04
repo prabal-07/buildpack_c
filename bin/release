@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-echo "--- {}"
+#echo "--- {}"
+default_process_types:
+	web: make start
