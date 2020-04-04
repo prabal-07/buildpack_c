@@ -4,3 +4,6 @@
 #echo "make start" && exit 0
 #default_process_types:
 #	web: make start
+
+#echo -e "---\ndefault_process_types:\n  web: '>&2 echo Error: no start command specified during staging or launch && exit 1'"
+echo -e "---\ndefault_process_types:\n  web: 'make start >&2 && exit 1'"
